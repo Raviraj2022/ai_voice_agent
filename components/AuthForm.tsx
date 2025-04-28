@@ -3,7 +3,7 @@
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
-
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import {
   Form,
@@ -44,7 +44,7 @@ const AuthForm = () => {
     <div className="lg:min-w-[566px]">
         <div className="flex flex-col gap-6 card py-14 px-10">
             <div className="flex flex-row gap-2 justify-center">
-<Image src="/.." alt="logo" height={34}/>
+<Image src="" alt="logo" height={34}/>
             </div>
         </div>
     <Form {...form}>
